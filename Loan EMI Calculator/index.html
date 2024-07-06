@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EMI - Calculate You're Loan EMI</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>You're EMI Calculator!</h1>
+
+      <form id="form">
+        <label>Load Amount</label>
+        <input
+          id="loanAmount"
+          type="number"
+          placeholder="Enter You're Loan Amount"
+        />
+
+        <label>Interest</label>
+        <input
+          id="interest"
+          type="number"
+          placeholder="Enter The Interest On Loan"
+        />
+
+        <label>Tenure</label>
+        <input id="tenure" type="number" placeholder="Total Duration Of Loan" />
+
+        <input type="submit" value="Calculate" />
+      </form>
+
+      <p id="result">EMI - 224/-RS Per Month</p>
+    </div>
+  </body>
+
+  <script src="./script.js"></script>
+</html>
